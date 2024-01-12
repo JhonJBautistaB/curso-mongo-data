@@ -1,0 +1,11 @@
+use("platzi_store")
+
+db.users.insertOne({
+    name: "juan",
+    last_name: "bautista",
+    email: "juan@gmail.com",
+    password: "-----",
+    role: 'seller',
+    age: 28,
+    isSingle: true
+})
